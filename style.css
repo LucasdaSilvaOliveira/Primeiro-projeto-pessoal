@@ -9,8 +9,7 @@
 }
 
 body {
-    background-image: linear-gradient(to bottom, #6ad1f3, #377e96fd );
-    background-repeat: no-repeat;
+    background-color: #4ACBF7;
     height: 100vh;
     margin: 0px;
     font-size: 20px;
@@ -29,7 +28,7 @@ header > p {
     font-size: 40px;
 }
 
-#rap {
+.teste {
     background-color: #0000007a;
     border-radius: 10px;
     color: white;
@@ -37,33 +36,35 @@ header > p {
     width: 350px;
     text-align: left;
     padding: 20px;
-    font-weight: bold;
-    margin-left: 20%;
+    font-weight: bold; 
 }
-#dj {
-    background-color: #0000007a;
-    border-radius: 10px;
-    color: white;
-    height: 220px;
-    width: 350px;
-    text-align: left;
-    padding: 20px;
-    font-weight: bold;
-    margin-right: 20%;
-}
-section {
+
+.teste {
     display: inline-block;
     margin: 20px;
 }
 #fases {
     background-color: #005875;
+    text-align: center;   
 }
 a {
     text-decoration: none;
-    color: rgb(38, 155, 190);
-    
+    color: rgb(38, 155, 190);   
 }
 a:hover {
     text-decoration: underline;
     color: rgb(89, 180, 207); 
+}
+img {
+    display: inline-block;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.26);
+    border-radius: 20px;
+    padding: 5px;
+}
+#imagens {
+    width: 1000px;
+    height: 300px;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
 }
