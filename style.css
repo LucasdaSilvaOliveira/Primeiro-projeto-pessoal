@@ -83,3 +83,23 @@ img {
 li {
     text-align: left;
 }
+#social {
+    background-image: linear-gradient(to bottom, #005875, #4ACBF7);
+    text-align: center;
+    margin: auto;
+    height: 400px;
+    width: 1200px;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 139, 0.363);
+    font-size: 30px;
+    margin-top: 20px;
+}
+#social > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+#social > ul > li > a:hover {
+    text-decoration: underline;
+    color: #4ACBF7;
+}
